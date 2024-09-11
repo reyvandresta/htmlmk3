@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #0056b3;
+    background-color: #001eff;
 }
 
 .form-group {
@@ -46,3 +46,9 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+label {
+    padding: 20px;
+}
+
+

@@ -8,7 +8,7 @@ document.getElementById('loginform').addEventListener('submit', function(event) 
     const password = document.getElementById('password').value;
     
     if (username === correctUsername && password === correctPassword) {
-        alert('Login Berhasil');
+        alert('Login berhasil');
         console.log('Berhasil');
         window.location.href = 'index.html';
     } else {
